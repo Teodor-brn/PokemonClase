@@ -21,7 +21,7 @@ const App = () => {
     <div className="row">
       {pokemons.map((pokemon) => (
          
-        <div key={pokemon.name} className="col-md-3 col-lg-2 mb-1"> 
+        <div key={pokemon.name} className="col-md-6 col-lg-3 mb-2"> 
         <div className="p-1 mt-3 border bg-light">       
             <PokemonCard name={pokemon.name} url={pokemon.url} />
           </div>
